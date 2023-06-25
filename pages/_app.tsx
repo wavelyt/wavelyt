@@ -31,6 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* Google tag (gtag.js) */}
       <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}></Script>
       <Script
+        id="g-analytics"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
