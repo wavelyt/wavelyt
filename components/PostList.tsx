@@ -3,6 +3,7 @@ import { formatDate } from "@/lib/formatDate";
 import type { MDXFrontMatter } from "@/lib/types";
 import { cx, slugify } from "@/lib/utils";
 import { Tag } from "./Tag";
+import Image from "next/image";
 
 interface PostListProps {
   posts: Array<MDXFrontMatter>;
@@ -17,7 +18,7 @@ export const PostList: React.FC<PostListProps> = ({ posts }) => {
           <div className="group cursor-pointer" key={index}>
             <div className="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105">
               <a className="relative block aspect-video" href={`/blog/${post.slug}`}>
-                <img />
+                <Image src={post.img ? post.img : ''} alt={post.title} width={300} height={300}/>
               </a>
             </div>
 

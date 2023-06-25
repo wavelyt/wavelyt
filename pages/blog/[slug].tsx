@@ -106,7 +106,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     },
     scope: frontMatter,
   });
-  console.log(mdxContent);
+
   return {
     props: {
       frontMatter,

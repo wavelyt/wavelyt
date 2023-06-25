@@ -20,7 +20,7 @@ const About: NextPage = () => {
 						</p>
 						<p>
 							At Wavelyt, we understand the rapidly evolving digital landscape and the challenges businesses face in
-							standing out from the crowd. That's why our passionate team of experts combines deep industry knowledge
+							standing out from the crowd. That&apos;s why our passionate team of experts combines deep industry knowledge
 							with the latest technological advancements to deliver tailored strategies and solutions that propel your
 							brand forward.
 						</p>
@@ -50,7 +50,7 @@ const About: NextPage = () => {
 						<h3>Our Range of Services:</h3>
 						<p>
 							<strong>Web and App Development:</strong> Our expert developers create visually stunning, user-friendly
-							websites and mobile applications that deliver seamless experiences and reflect your brand's identity.
+							websites and mobile applications that deliver seamless experiences and reflect your brand&apos;s identity.
 						</p>
 						<p>
 							<strong>Branding and Design:</strong> Our creative team combines aesthetics and strategy to create
@@ -66,7 +66,7 @@ const About: NextPage = () => {
 							improve efficiency with automated solutions tailored to your specific needs.
 						</p>
 						<p>
-							Partner with Wavelyt and embark on a transformative journey to unlock your business's full potential.
+							Partner with Wavelyt and embark on a transformative journey to unlock your business&apos;s full potential.
 							Together, we will propel your brand forward in the digital age, maximize your reach, and achieve long-term
 							success. Contact us today to explore how we can collaborate and take your business to new heights.
 						</p>

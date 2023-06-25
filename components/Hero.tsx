@@ -13,7 +13,7 @@ const Hero = () => (
 			<div className="text-2xl mt-4 mb-16">
 				Build your online presence and grow your position in market exponentially.
 			</div>
-			<Link href="mailto:hello@wavelyt.com">
+			<Link href="mailto:hello@wavelyt.com" passHref>
 					<Button xl>Get Started</Button>
 			</Link>
 		</header>
