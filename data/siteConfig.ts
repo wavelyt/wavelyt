@@ -8,7 +8,6 @@ const siteConfig: SiteConfig = {
   siteThumbnail: "/wavelyt-logo.svg",
   contact: mail,
   nav: [
-    { label: "Home", href: "/" },
     { label: "About", href: "/about" },
     { label: "Blog", href: "/blog" },
     { label: "Contact", href: `mailto:${mail}` },
