@@ -27,7 +27,7 @@ export const Page: React.FC<PageProps> = ({title, metaTitle, metaDescription, ch
             "dark:border-gray-700"
           )}
         >
-          <h1 className="font-bold text-3xl">{pageTitle}</h1>
+          <h1 className="font-bold text-3xl text-center">{pageTitle}</h1>
         </header>
       ): null}
       {children}

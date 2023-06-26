@@ -7,6 +7,7 @@ const About: NextPage = () => {
 	return (
 		<FixWidth classes="py-5 text-justify">
 			<Page
+				metaTitle="About"
 				title="About"
 				metaDescription="This is a brief description about the about page."
 			>

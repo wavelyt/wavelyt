@@ -13,12 +13,15 @@ interface PostsProps {
 
 const Blog: NextPage<PostsProps> = ({posts}) => {
 	return (
-		<Page
-			metaTitle="Expert Blogs"
-			metaDescription="Explore our blog for expert insights on Experience Design, DXP, Digital Engineering, and Quality Engineering, empowering you with knowledge for enhanced digital experiences."
-		>
-			{posts.length > 0 ? <PostList posts={posts}/> : <FixWidth>No Blog found</FixWidth>}
-		</Page>
+		<FixWidth  classes="py-5 text-justify">
+			<Page
+				title="Blogs"
+				metaTitle="Blogs"
+				metaDescription="Explore our blog for expert insights on Experience Design, Engineering, and Quality Engineering, empowering you with knowledge for enhanced digital experiences."
+			>
+				{posts.length > 0 ? <PostList posts={posts}/> : <FixWidth>No Blog found</FixWidth>}
+			</Page>
+		</FixWidth>
 	);
 };
 

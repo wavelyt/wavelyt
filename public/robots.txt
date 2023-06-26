@@ -1,0 +1,23 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+Allow: /*.css$
+Allow: /*.css?
+Allow: /*.js$
+Allow: /*.js?
+Allow: /*.gif
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.svg
+# Directories
+Disallow: /core/
+Disallow: /styles/
+Disallow: /posts/
+Disallow: /posts-ref/
+Disallow: /lib/
+Disallow: /data/
+Disallow: /components/
+# Files
+Disallow: /README.md
+Disallow: /web.config
