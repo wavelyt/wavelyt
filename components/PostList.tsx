@@ -18,7 +18,7 @@ export const PostList: React.FC<PostListProps> = ({ posts }) => {
           <div className="group cursor-pointer" key={index}>
             <div className="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105">
               <a className="relative block aspect-video" href={`/blog/${post.slug}`}>
-                <Image src={post.img ? post.img : ''} alt={post.title} width={300} height={300}/>
+                <Image src={post.img ? post.img : ''} alt={post.title} width={460} height={300}/>
               </a>
             </div>
 
