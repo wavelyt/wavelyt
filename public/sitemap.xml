@@ -12,5 +12,9 @@
             <loc>https://wavelyt.com/blog</loc>
             <lastmod>2023-06-25</lastmod>
         </url>
+        <url>
+            <loc>https://wavelyt.com/blog/tailwind-css-integration-with-laravel</loc>
+            <lastmod>2023-07-03</lastmod>
+        </url>
     </urlset>
 </xml>
